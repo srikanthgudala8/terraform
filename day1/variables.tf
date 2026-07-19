@@ -15,3 +15,9 @@ variable "keyvalue"{
     type =string
     default = "git_key"
 }
+
+variable "disk_size" {
+    description = "Root EBS volume size in GB"
+    type = number
+    default = 10
+}
